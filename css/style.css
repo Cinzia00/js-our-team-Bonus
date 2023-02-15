@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.intestazione {
+    text-align: center;
+    padding: 40px;
+}
+
+.containers{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    flex-basis: calc((100% / 3) - 10px);
+    padding-bottom: 50px;
+    background-color: blanchedalmond;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.info {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nome {
+    font-weight: bold;
+}
